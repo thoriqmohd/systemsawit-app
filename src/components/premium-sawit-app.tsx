@@ -69,7 +69,7 @@ export function PremiumSawitApp() {
     persist({
       ...state,
       collections: state.collections.map((item) => item.id === record.id ? record : item),
-      activities: [{ id: `act-${Date.now()}`, title: `${record.id} updated`, detail: `Status changed to ${record.status}`, time: "Just now", tone: "green" }, ...state.activities].slice(0, 8)
+      activities: [{ id: `act-${Date.now()}`, title: `${record.id} updated`, detail: `Status changed to ${record.status}`, time: "Just now", tone: "green" as const }, ...state.activities].slice(0, 8)
     });
   }
 
