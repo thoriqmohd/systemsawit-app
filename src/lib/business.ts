@@ -1,6 +1,7 @@
 import type { CollectionRecord, Grade, PaymentStatus } from "@/lib/mock-data";
 
 export const gradeRates: Record<Grade, number> = {
+  Pending: 710,
   A: 760,
   B: 710,
   C: 650,
