@@ -1,5 +1,5 @@
-import { SistemSawitApp } from "@/components/systemsawit-app";
+import { PremiumSawitApp } from "@/components/premium-sawit-app";
 
 export default function Home() {
-  return <SistemSawitApp />;
+  return <PremiumSawitApp />;
 }
