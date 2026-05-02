@@ -1,5 +1,5 @@
-import { Dashboard } from "@/components/dashboard";
+import { SistemSawitApp } from "@/components/systemsawit-app";
 
 export default function Home() {
-  return <Dashboard />;
+  return <SistemSawitApp />;
 }
