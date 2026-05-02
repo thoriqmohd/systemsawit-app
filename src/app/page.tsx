@@ -1,5 +1,5 @@
-import { PremiumSawitApp } from "@/components/premium-sawit-app";
+import { DemoReadySawitApp } from "@/components/demo-ready-sawit-app";
 
 export default function Home() {
-  return <PremiumSawitApp />;
+  return <DemoReadySawitApp />;
 }
